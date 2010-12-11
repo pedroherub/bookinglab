@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Timein:</b>
+  <%= @timeunit.timein %>
+</p>
+
+<p>
+  <b>Timeout:</b>
+  <%= @timeunit.timeout %>
+</p>
+
+
+<%= link_to 'Edit', edit_timeunit_path(@timeunit) %> |
+<%= link_to 'Back', timeunits_path %>

@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  timein: 2010-12-06 23:27:27
+  timeout: 2010-12-06 23:27:27
+
+two:
+  timein: 2010-12-06 23:27:27
+  timeout: 2010-12-06 23:27:27

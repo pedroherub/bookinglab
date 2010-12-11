@@ -1,0 +1,25 @@
+<%= form_for(@timeunit) do |f| %>
+  <% if @timeunit.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@timeunit.errors.count, "error") %> prohibited this timeunit from being saved:</h2>
+
+      <ul>
+      <% @timeunit.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :timein %><br />
+    <%= f.time_select :timein %>
+  </div>
+  <div class="field">
+    <%= f.label :timeout %><br />
+    <%= f.time_select :timeout %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

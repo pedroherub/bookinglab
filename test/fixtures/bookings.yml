@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  student: 
+  computer: 
+  timeunit: 
+  date: 2010-12-06
+
+two:
+  student: 
+  computer: 
+  timeunit: 
+  date: 2010-12-06

@@ -1,0 +1,25 @@
+<h1>Listing timeunits</h1>
+
+<table>
+  <tr>
+    <th>Timein</th>
+    <th>Timeout</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @timeunits.each do |timeunit| %>
+  <tr>
+    <td><%= timeunit.timein %></td>
+    <td><%= timeunit.timeout %></td>
+    <td><%= link_to 'Show', timeunit %></td>
+    <td><%= link_to 'Edit', edit_timeunit_path(timeunit) %></td>
+    <td><%= link_to 'Destroy', timeunit, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Timeunit', new_timeunit_path %>

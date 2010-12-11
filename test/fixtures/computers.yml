@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  block: MyString
+  room: 1
+  number: 1
+
+two:
+  block: MyString
+  room: 1
+  number: 1

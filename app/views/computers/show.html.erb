@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Block:</b>
+  <%= @computer.block %>
+</p>
+
+<p>
+  <b>Room:</b>
+  <%= @computer.room %>
+</p>
+
+<p>
+  <b>Number:</b>
+  <%= @computer.number %>
+</p>
+
+
+<%= link_to 'Edit', edit_computer_path(@computer) %> |
+<%= link_to 'Back', computers_path %>
