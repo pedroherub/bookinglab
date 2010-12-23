@@ -1,8 +1,11 @@
-<h1>Listing bookings</h1>
+
+<h1>Listing my bookings</h1>
 
 <table>
   <tr>
     <th>Student</th>
+    <th>Block</th>
+    <th>Room</th>
     <th>Computer</th>
     <th>Timeunit</th>
     <th>Date</th>
@@ -13,9 +16,11 @@
 
 <% @bookings.each do |booking| %>
   <tr>
-    <td><%= booking.student %></td>
-    <td><%= booking.computer %></td>
-    <td><%= booking.timeunit %></td>
+    <td><%= booking.student.name %></td>
+    <td><%= booking.computer.block %></td>
+    <td><%= booking.computer.room %></td>
+    <td><%= booking.computer.number %></td>
+    <td><%= booking.timeunit.id %></td>
     <td><%= booking.date %></td>
     <td><%= link_to 'Show', booking %></td>
     <td><%= link_to 'Edit', edit_booking_path(booking) %></td>
@@ -25,5 +30,13 @@
 </table>
 
 <br />
-
-<%= link_to 'New Booking', new_booking_path %>
+<div id="nav">
+	<%= link_to 'New Booking', new_booking_path %>
+        <% if current_student %>
+        <%= link_to "Edit Profile", edit_student_path(current_student.id)%>
+        <%= link_to "Logout", :logout%>
+        <% else %>
+        <%= link_to "Register", new_student_path%> | 
+        <%= link_to "Login", :login %>
+        <% end %>
+</div>

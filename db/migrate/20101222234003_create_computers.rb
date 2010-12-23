@@ -2,7 +2,7 @@ class CreateComputers < ActiveRecord::Migration
   def self.up
     create_table :computers do |t|
       t.string :block
-      t.integer :room
+      t.string :room
       t.integer :number
 
       t.timestamps

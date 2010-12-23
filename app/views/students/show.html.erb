@@ -11,10 +11,15 @@
 </p>
 
 <p>
+  <b>Email:</b>
+  <%= @student.email %>
+</p>
+
+<p>
   <b>Password:</b>
   <%= @student.password %>
 </p>
 
 
 <%= link_to 'Edit', edit_student_path(@student) %> |
-<%= link_to 'Back', students_path %>
+<%= link_to 'My bookings', bookings_path %>

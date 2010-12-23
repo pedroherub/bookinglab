@@ -1,8 +1,10 @@
 class BookingsController < ApplicationController
+
   # GET /bookings
   # GET /bookings.xml
   def index
-    @bookings = Booking.all
+
+    @bookings=Booking.where("student_id = ?", session[:student_id])
 
     respond_to do |format|
       format.html # index.html.erb
@@ -23,7 +25,9 @@ class BookingsController < ApplicationController
 
   # GET /bookings/new
   # GET /bookings/new.xml
-  def new
+  def new  
+    @computers = Computer.find(:all)
+    @timeunits = Timeunit.find(:all)
     @booking = Booking.new
 
     respond_to do |format|

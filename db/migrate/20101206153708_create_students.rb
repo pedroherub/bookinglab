@@ -3,8 +3,10 @@ class CreateStudents < ActiveRecord::Migration
     create_table :students do |t|
       t.integer :studentid
       t.string :name
-      t.string :password
-
+      t.string :crypted_password
+      t.string :password_salt
+      t.string :persistence_token
+      t.string :email
       t.timestamps
     end
   end

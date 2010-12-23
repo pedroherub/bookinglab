@@ -2,10 +2,10 @@
 
 one:
   block: MyString
-  room: 1
+  room: MyString
   number: 1
 
 two:
   block: MyString
-  room: 1
+  room: MyString
   number: 1

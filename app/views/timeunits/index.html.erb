@@ -11,8 +11,8 @@
 
 <% @timeunits.each do |timeunit| %>
   <tr>
-    <td><%= timeunit.timein %></td>
-    <td><%= timeunit.timeout %></td>
+    <td><%= timeunit.timein.to_s(:time) %></td>
+    <td><%= timeunit.timeout.to_s(:time) %></td>
     <td><%= link_to 'Show', timeunit %></td>
     <td><%= link_to 'Edit', edit_timeunit_path(timeunit) %></td>
     <td><%= link_to 'Destroy', timeunit, :confirm => 'Are you sure?', :method => :delete %></td>

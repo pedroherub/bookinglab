@@ -1,4 +1,4 @@
-class AddForeignKeys < ActiveRecord::Migration
+class ForeignKeys < ActiveRecord::Migration
   def self.up
     #add foreign keys
     execute <<-SQL
@@ -28,4 +28,5 @@ class AddForeignKeys < ActiveRecord::Migration
         DROP FOREIGN KEY fk_bookings_timeunits
     SQL
   end
+
 end

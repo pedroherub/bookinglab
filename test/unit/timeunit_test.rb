@@ -6,3 +6,15 @@ class TimeunitTest < ActiveSupport::TestCase
     assert true
   end
 end
+
+# == Schema Information
+#
+# Table name: timeunits
+#
+#  id         :integer         not null, primary key
+#  timein     :time
+#  timeout    :time
+#  created_at :datetime
+#  updated_at :datetime
+#
+

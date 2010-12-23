@@ -2,12 +2,12 @@
 
 <p>
   <b>Timein:</b>
-  <%= @timeunit.timein %>
+  <%= @timeunit.timein.to_s(:time) %>
 </p>
 
 <p>
   <b>Timeout:</b>
-  <%= @timeunit.timeout %>
+  <%= @timeunit.timeout.to_s(:time) %>
 </p>
 
 

@@ -1,5 +1,4 @@
 <%= form_for(@student) do |f| %>
-  <%= f.error_messages %>
   <% if @student.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@student.errors.count, "error") %> prohibited this student from being saved:</h2>
@@ -25,14 +24,15 @@
     <%= f.text_field :email %>
   </div>
   <div class="field">
-    <%= f.label :email_confirmation %><br />
-    <%= f.text_field :email_confirmation %>
+    <%= f.label :password %><br />
+    <%= f.password_field :password %>
   </div>
   <div class="field">
-    <%= f.label :password %><br />
-    <%= f.text_field :password %>
+      <%= f.label :password_confirmation %><br />
+      <%= f.password_field :password_confirmation %>
   </div>
   <div class="actions">
     <%= f.submit %>
   </div>
 <% end %>
+

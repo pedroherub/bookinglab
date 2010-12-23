@@ -2,17 +2,27 @@
 
 <p>
   <b>Student:</b>
-  <%= @booking.student %>
+  <%= @booking.student.name %>
+</p>
+
+<p>
+  <b>Block:</b>
+  <%= @booking.computer.block %>
+</p>
+
+<p>
+  <b>Room:</b>
+  <%= @booking.computer.room %>
 </p>
 
 <p>
   <b>Computer:</b>
-  <%= @booking.computer %>
+  <%= @booking.computer.number %>
 </p>
 
 <p>
   <b>Timeunit:</b>
-  <%= @booking.timeunit %>
+  <%= @booking.timeunit.id %>
 </p>
 
 <p>

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101208095458) do
+ActiveRecord::Schema.define(:version => 20101222234004) do
 
   create_table "bookings", :force => true do |t|
     t.integer  "student_id"
@@ -23,8 +23,13 @@ ActiveRecord::Schema.define(:version => 20101208095458) do
 
   create_table "computers", :force => true do |t|
     t.string   "block"
-    t.integer  "room"
+    t.string   "room"
     t.integer  "number"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "student_sessions", :force => true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -32,10 +37,12 @@ ActiveRecord::Schema.define(:version => 20101208095458) do
   create_table "students", :force => true do |t|
     t.integer  "studentid"
     t.string   "name"
-    t.string   "password"
+    t.string   "crypted_password"
+    t.string   "password_salt"
+    t.string   "persistence_token"
+    t.string   "email"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "email"
   end
 
   create_table "timeunits", :force => true do |t|
