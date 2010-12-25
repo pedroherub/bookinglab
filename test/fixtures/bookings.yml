@@ -1,16 +1,18 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
-  student: 
-  computer: 
-  timeunit: 
-  date: 2010-12-06
+  id: 1
+  student_id: students(:one).student_id
+  computer_id: computers(:one).computer_id
+  timeunit_id: timeunits(:one).timeunit_id
+  date: 2010-12-26
 
 two:
-  student: 
-  computer: 
-  timeunit: 
-  date: 2010-12-06
+  id: 2
+  student_id: students(:two).student_id
+  computer_id: computers(:two).computer_id
+  timeunit_id: timeunits(:two).timeunit_id
+  date: 2010-12-25
 
 # == Schema Information
 #

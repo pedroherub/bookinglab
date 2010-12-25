@@ -1,0 +1,1508 @@
+  [1m[36mSQL (45.6ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.2ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.2ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.3ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (114.4ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TIME ZONE
+  [1m[36mSQL (198.9ms)[0m  [1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+PGError: ERROR:  relation "students" does not exist
+LINE 4:              WHERE a.attrelid = '"students"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"students"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+  [1m[36mSQL (0.2ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.1ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.1ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.1ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.4ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.1ms)[0m  SHOW TIME ZONE
+  [1m[36mSQL (1.1ms)[0m  [1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+PGError: ERROR:  relation "students" does not exist
+LINE 4:              WHERE a.attrelid = '"students"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"students"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+  [1m[36mSQL (0.2ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.1ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.1ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.1ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.4ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.1ms)[0m  SHOW TIME ZONE
+  [1m[36mSQL (1.2ms)[0m  [1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+PGError: ERROR:  relation "students" does not exist
+LINE 4:              WHERE a.attrelid = '"students"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"students"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.1ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.1ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.1ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.4ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.1ms)[0m  SHOW TIME ZONE
+  [1m[36mSQL (1.2ms)[0m  [1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+PGError: ERROR:  relation "students" does not exist
+LINE 4:              WHERE a.attrelid = '"students"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"students"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+  [1m[36mSQL (11.9ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.3ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.2ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.1ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (29.6ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TIME ZONE
+  [1m[36mSQL (93.8ms)[0m  [1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+PGError: ERROR:  relation "students" does not exist
+LINE 4:              WHERE a.attrelid = '"students"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"students"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+  [1m[36mSQL (34.5ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.2ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.2ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.2ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (111.4ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TIME ZONE
+  [1m[36mSQL (112.4ms)[0m  [1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+PGError: ERROR:  relation "students" does not exist
+LINE 4:              WHERE a.attrelid = '"students"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"students"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.2ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.2ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.6ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.7ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TIME ZONE
+  [1m[36mSQL (15.2ms)[0m  [1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.3ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.4ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.2ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.5ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TIME ZONE
+  [1m[36mSQL (3.9ms)[0m  [1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.2ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.2ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.2ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.5ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TIME ZONE
+  [1m[36mSQL (4.0ms)[0m  [1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [1m[36mSQL (0.7ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.2ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.2ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.2ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.5ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TIME ZONE
+  [1m[36mSQL (4.4ms)[0m  [1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [1m[36mSQL (0.5ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.2ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.2ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (1.2ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.5ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TIME ZONE
+  [1m[36mSQL (4.3ms)[0m  [1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [1m[36mSQL (0.7ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (1.0ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (1.0ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.3ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.9ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (1.0ms)[0m  SHOW TIME ZONE
+  [1m[36mSQL (21.4ms)[0m  [1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [1m[36mSQL (0.5ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.3ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.3ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.2ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.6ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TIME ZONE
+  [1m[36mSQL (5.9ms)[0m  [1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.2ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.2ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.2ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.6ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TIME ZONE
+  [1m[36mSQL (4.1ms)[0m  [1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [1m[36mSQL (1.4ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.2ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.2ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.2ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.6ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TIME ZONE
+  [1m[36mSQL (10.7ms)[0m  [1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [1m[35mSQL (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (16.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (2.1ms)[0m   SELECT tablename
+ FROM pg_tables
+ WHERE schemaname = ANY (current_schemas(false))
+  [1m[36mSQL (1.7ms)[0m  [1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [1m[35mStudent Load (1.8ms)[0m  SELECT "students"."id" FROM "students" WHERE ("students"."persistence_token" = '03afe5ae3ab7f264c000efcb790c72490dcd73128d0024eb70481e7a4eb4fdcf638adefa264f0e8d01356168f873c5211933edc4be0d17847c33d8a6dbe6383d') LIMIT 1
+  [1m[36mStudent Load (0.5ms)[0m  [1mSELECT "students"."id" FROM "students" WHERE ("students"."studentid" IS NULL) LIMIT 1[0m
+  [1m[35mStudent Load (0.3ms)[0m  SELECT "students"."id" FROM "students" WHERE ("students"."email" IS NULL) LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  ROLLBACK
+  [1m[36mSQL (0.5ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.3ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.3ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.3ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.6ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.6ms)[0m  SHOW TIME ZONE
+  [1m[36mSQL (5.9ms)[0m  [1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.2ms)[0m  [1m SELECT tablename
+ FROM pg_tables
+ WHERE schemaname = ANY (current_schemas(false))
+[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"bookings"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+  [1m[36mBooking Load (13.7ms)[0m  [1mSELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1[0m
+  [1m[35mSQL (0.7ms)[0m  SELECT COUNT(*) FROM "bookings"
+  Processing by BookingsController#create as HTML
+  Parameters: {"booking"=>{"student_id"=>0, "computer_id"=>0, "created_at"=>Sat Dec 25 21:15:34 UTC 2010, "timeunit_id"=>0, "updated_at"=>Sat Dec 25 21:15:34 UTC 2010, "id"=>1, "date"=>Sun, 26 Dec 2010}}
+WARNING: Can't mass-assign protected attributes: id
+  [1m[36mSQL (0.6ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPK and serial sequence (3.1ms)[0m   SELECT attr.attname, seq.relname
+ FROM pg_class seq,
+ pg_attribute attr,
+ pg_depend dep,
+ pg_namespace name,
+ pg_constraint cons
+ WHERE seq.oid = dep.objid
+ AND seq.relkind = 'S'
+ AND attr.attrelid = dep.refobjid
+ AND attr.attnum = dep.refobjsubid
+ AND attr.attrelid = cons.conrelid
+ AND attr.attnum = cons.conkey[1]
+ AND cons.contype = 'p'
+ AND dep.refobjid = '"bookings"'::regclass
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "bookings" ("computer_id", "updated_at", "timeunit_id", "student_id", "created_at", "date") VALUES (0, '2010-12-25 21:15:34.000000', 0, 0, '2010-12-25 21:15:34.000000', '2010-12-26') RETURNING "id"[0m
+  [1m[35mSQL (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/bookings/3
+Completed 302 Found in 25ms
+  [1m[36mSQL (0.4ms)[0m  [1mSELECT COUNT(*) FROM "bookings"[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mBooking Load (0.4ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mSELECT COUNT(*) FROM "bookings"[0m
+  Processing by BookingsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBooking Load (0.7ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAREL (0.5ms)[0m  DELETE FROM "bookings" WHERE ("bookings"."id" = 1)
+  [1m[36mSQL (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/bookings
+Completed 302 Found in 5ms
+  [1m[35mSQL (0.5ms)[0m  SELECT COUNT(*) FROM "bookings"
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.7ms)[0m  BEGIN
+  [1m[36mBooking Load (0.7ms)[0m  [1mSELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1[0m
+  Processing by BookingsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBooking Load (0.6ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1
+  [1m[36mComputer Load (0.5ms)[0m  [1mSELECT "computers".* FROM "computers"[0m
+  [1m[35mTimeunit Load (0.5ms)[0m  SELECT "timeunits".* FROM "timeunits"
+Rendered bookings/_form.html.erb (30.4ms)
+Completed 200 OK in 56ms (Views: 52.8ms | ActiveRecord: 93.9ms)
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.7ms)[0m  BEGIN
+  [1m[36mBooking Load (0.4ms)[0m  [1mSELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1[0m
+  Processing by BookingsController#index as HTML
+  [1m[35mBooking Load (0.6ms)[0m  SELECT "bookings".* FROM "bookings" WHERE (student_id = NULL)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 2.0ms)
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mBooking Load (0.5ms)[0m  [1mSELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1[0m
+  Processing by BookingsController#new as HTML
+  [1m[35mComputer Load (0.4ms)[0m  SELECT "computers".* FROM "computers"
+  [1m[36mTimeunit Load (0.3ms)[0m  [1mSELECT "timeunits".* FROM "timeunits"[0m
+  [1m[35mComputer Load (0.4ms)[0m  SELECT "computers".* FROM "computers"
+  [1m[36mTimeunit Load (0.3ms)[0m  [1mSELECT "timeunits".* FROM "timeunits"[0m
+Rendered bookings/_form.html.erb (12.3ms)
+Completed 200 OK in 20ms (Views: 16.7ms | ActiveRecord: 2.3ms)
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mBooking Load (0.4ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1
+  Processing by BookingsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBooking Load (0.5ms)[0m  [1mSELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1[0m
+  [1m[35mSQL (2.0ms)[0m   SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+  [1m[36mStudent Load (0.8ms)[0m  [1mSELECT "students".* FROM "students" WHERE ("students"."id" = 0) LIMIT 1[0m
+Completed   in 51ms
+  [1m[35mSQL (0.4ms)[0m  ROLLBACK
+  [1m[36mSQL (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mBooking Load (0.7ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1
+  Processing by BookingsController#update as HTML
+  Parameters: {"booking"=>{"student_id"=>0, "computer_id"=>0, "created_at"=>Sat Dec 25 21:15:34 UTC 2010, "timeunit_id"=>0, "updated_at"=>Sat Dec 25 21:15:34 UTC 2010, "id"=>1, "date"=>Sun, 26 Dec 2010}, "id"=>"1"}
+  [1m[36mBooking Load (0.5ms)[0m  [1mSELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+WARNING: Can't mass-assign protected attributes: id
+  [1m[36mSQL (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/bookings/1
+Completed 302 Found in 6ms
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m   SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"computers"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+  [1m[36mComputer Load (0.4ms)[0m  [1mSELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1[0m
+  [1m[35mSQL (0.9ms)[0m  SELECT COUNT(*) FROM "computers"
+  Processing by ComputersController#create as HTML
+  Parameters: {"computer"=>{"number"=>1, "created_at"=>Sat Dec 25 21:15:34 UTC 2010, "updated_at"=>Sat Dec 25 21:15:34 UTC 2010, "id"=>1, "block"=>"C6", "room"=>"Renesas"}}
+WARNING: Can't mass-assign protected attributes: id
+  [1m[36mSQL (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPK and serial sequence (3.2ms)[0m   SELECT attr.attname, seq.relname
+ FROM pg_class seq,
+ pg_attribute attr,
+ pg_depend dep,
+ pg_namespace name,
+ pg_constraint cons
+ WHERE seq.oid = dep.objid
+ AND seq.relkind = 'S'
+ AND attr.attrelid = dep.refobjid
+ AND attr.attnum = dep.refobjsubid
+ AND attr.attrelid = cons.conrelid
+ AND attr.attnum = cons.conkey[1]
+ AND cons.contype = 'p'
+ AND dep.refobjid = '"computers"'::regclass
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "computers" ("created_at", "room", "block", "number", "updated_at") VALUES ('2010-12-25 21:15:34.000000', 'Renesas', 'C6', 1, '2010-12-25 21:15:34.000000') RETURNING "id"[0m
+  [1m[35mSQL (0.6ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/computers/3
+Completed 302 Found in 13ms
+  [1m[36mSQL (0.4ms)[0m  [1mSELECT COUNT(*) FROM "computers"[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mComputer Load (0.4ms)[0m  SELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT COUNT(*) FROM "computers"[0m
+  Processing by ComputersController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mComputer Load (0.5ms)[0m  SELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mBooking Load (0.3ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings".computer_id = 1)
+  [1m[36mAREL (0.3ms)[0m  [1mDELETE FROM "computers" WHERE ("computers"."id" = 1)[0m
+  [1m[35mSQL (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/computers
+Completed 302 Found in 5ms
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT COUNT(*) FROM "computers"[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mComputer Load (0.4ms)[0m  SELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1
+  Processing by ComputersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mComputer Load (0.5ms)[0m  [1mSELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1[0m
+Rendered computers/_form.html.erb (12.0ms)
+Completed 200 OK in 49ms (Views: 47.3ms | ActiveRecord: 16.8ms)
+  [1m[35mSQL (0.4ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mComputer Load (0.6ms)[0m  SELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1
+  Processing by ComputersController#index as HTML
+  [1m[36mComputer Load (0.4ms)[0m  [1mSELECT "computers".* FROM "computers"[0m
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 1.6ms)
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mComputer Load (0.8ms)[0m  SELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1
+  Processing by ComputersController#new as HTML
+Rendered computers/_form.html.erb (9.4ms)
+Completed 200 OK in 32ms (Views: 31.7ms | ActiveRecord: 1.3ms)
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mComputer Load (0.9ms)[0m  [1mSELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1[0m
+  Processing by ComputersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mComputer Load (0.5ms)[0m  SELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 1.8ms)
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mComputer Load (0.4ms)[0m  [1mSELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1[0m
+  Processing by ComputersController#update as HTML
+  Parameters: {"id"=>"1", "computer"=>{"number"=>1, "created_at"=>Sat Dec 25 21:15:34 UTC 2010, "updated_at"=>Sat Dec 25 21:15:34 UTC 2010, "id"=>1, "block"=>"C6", "room"=>"Renesas"}}
+  [1m[35mComputer Load (1.5ms)[0m  SELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+WARNING: Can't mass-assign protected attributes: id
+  [1m[35mBooking Load (0.4ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings".computer_id = 1)
+  [1m[36mSQL (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/computers/1
+Completed 302 Found in 8ms
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  Processing by HomeController#index as HTML
+Completed 200 OK in 31ms (Views: 30.5ms | ActiveRecord: 3.5ms)
+  [1m[35mSQL (0.6ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mStudent Load (0.5ms)[0m  SELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT COUNT(*) FROM "students"[0m
+  Processing by StudentsController#create as HTML
+  Parameters: {"student"=>{"name"=>"Triet", "created_at"=>Sat Dec 25 21:15:34 UTC 2010, "studentid"=>12345678, "crypted_password"=>"[FILTERED]", "updated_at"=>Sat Dec 25 21:15:34 UTC 2010, "id"=>1, "password_salt"=>"[FILTERED]", "persistence_token"=>nil, "email"=>"trietptm@gmail.com"}}
+WARNING: Can't mass-assign protected attributes: id
+  [1m[35mSQL (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mStudent Load (38.8ms)[0m  [1mSELECT "students"."id" FROM "students" WHERE (LOWER("students"."email") = LOWER('trietptm@gmail.com')) LIMIT 1[0m
+  [1m[35mStudent Load (1.0ms)[0m  SELECT "students"."id" FROM "students" WHERE ("students"."persistence_token" = 'a82c9308179df33fefdaab11df09773789efa63dc36224cd79d5ba0ab6b0f015f35e9dcdb297a04897d5dd29d456ae3d54cd9f6fec9c5082b911bbe12d182e35') LIMIT 1
+  [1m[36mStudent Load (0.4ms)[0m  [1mSELECT "students"."id" FROM "students" WHERE ("students"."studentid" = 12345678) LIMIT 1[0m
+  [1m[35mStudent Load (0.6ms)[0m  SELECT "students"."id" FROM "students" WHERE ("students"."email" = 'trietptm@gmail.com') LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Rendered students/_form.html.erb (20.3ms)
+Completed 200 OK in 187ms (Views: 46.2ms | ActiveRecord: 45.3ms)
+  [1m[35mSQL (0.5ms)[0m  SELECT COUNT(*) FROM "students"
+  [1m[36mSQL (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mStudent Load (0.5ms)[0m  [1mSELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  SELECT COUNT(*) FROM "students"
+  Processing by StudentsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mStudent Load (0.9ms)[0m  [1mSELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mBooking Load (0.5ms)[0m  [1mSELECT "bookings".* FROM "bookings" WHERE ("bookings".student_id = 1)[0m
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "students" WHERE ("students"."id" = 1)
+  [1m[36mSQL (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/students
+Completed 302 Found in 6ms
+  [1m[35mSQL (0.3ms)[0m  SELECT COUNT(*) FROM "students"
+  [1m[36mSQL (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mStudent Load (0.5ms)[0m  [1mSELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1[0m
+  Processing by StudentsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mStudent Load (0.6ms)[0m  SELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1
+Rendered students/_form.html.erb (21.2ms)
+Completed 200 OK in 59ms (Views: 56.8ms | ActiveRecord: 5.9ms)
+  [1m[36mSQL (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mStudent Load (0.4ms)[0m  [1mSELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1[0m
+  Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.6ms)[0m  SELECT "students".* FROM "students"
+Completed 200 OK in 38ms (Views: 35.6ms | ActiveRecord: 1.7ms)
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mStudent Load (0.5ms)[0m  [1mSELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1[0m
+  Processing by StudentsController#new as HTML
+Rendered students/_form.html.erb (7.1ms)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 1.0ms)
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mStudent Load (0.5ms)[0m  SELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1
+  Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mStudent Load (0.5ms)[0m  [1mSELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1[0m
+Completed 200 OK in 19ms (Views: 16.8ms | ActiveRecord: 1.5ms)
+  [1m[35mSQL (0.4ms)[0m  ROLLBACK
+  [1m[36mSQL (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mStudent Load (0.5ms)[0m  SELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1
+  Processing by StudentsController#update as HTML
+  Parameters: {"id"=>"1", "student"=>{"name"=>"Triet", "created_at"=>Sat Dec 25 21:15:34 UTC 2010, "studentid"=>12345678, "crypted_password"=>"[FILTERED]", "updated_at"=>Sat Dec 25 21:15:34 UTC 2010, "id"=>1, "password_salt"=>"[FILTERED]", "persistence_token"=>nil, "email"=>"trietptm@gmail.com"}}
+  [1m[36mStudent Load (0.6ms)[0m  [1mSELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+WARNING: Can't mass-assign protected attributes: id
+  [1m[36mStudent Load (0.5ms)[0m  [1mSELECT "students"."id" FROM "students" WHERE ("students"."persistence_token" = 'b4d5c71827ac5110171ab8e0de69dfcf3d719359ff8153d5079e72b077e4c0a98f4c538c4d81a86f6555efc4fc73de9670880b4d725347dab2c6867d887f0864') AND ("students".id <> 1) LIMIT 1[0m
+  [1m[35mStudent Load (0.4ms)[0m  SELECT "students"."id" FROM "students" WHERE ("students"."studentid" = 12345678) AND ("students".id <> 1) LIMIT 1
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students"."id" FROM "students" WHERE ("students"."email" = 'trietptm@gmail.com') AND ("students".id <> 1) LIMIT 1[0m
+  [1m[35mBooking Load (0.3ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings".student_id = 1)
+  [1m[36mAREL (1.0ms)[0m  [1mUPDATE "students" SET "updated_at" = '2010-12-25 21:15:35.517519', "persistence_token" = 'b4d5c71827ac5110171ab8e0de69dfcf3d719359ff8153d5079e72b077e4c0a98f4c538c4d81a86f6555efc4fc73de9670880b4d725347dab2c6867d887f0864' WHERE ("students"."id" = 1)[0m
+  [1m[35mSQL (0.3ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/students/1
+Completed 302 Found in 21ms
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"timeunits"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [1m[35mTimeunit Load (1.4ms)[0m  SELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT COUNT(*) FROM "timeunits"[0m
+  Processing by TimeunitsController#create as HTML
+  Parameters: {"timeunit"=>{"timein"=>Sat Jan 01 06:30:00 UTC 2000, "created_at"=>Sat Dec 25 21:15:34 UTC 2010, "updated_at"=>Sat Dec 25 21:15:34 UTC 2010, "timeout"=>Sat Jan 01 07:15:00 UTC 2000, "id"=>1}}
+WARNING: Can't mass-assign protected attributes: id
+  [1m[35mSQL (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed   in 6ms
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTimeunit Load (0.4ms)[0m  SELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1
+  [1m[36mSQL (1.1ms)[0m  [1mSELECT COUNT(*) FROM "timeunits"[0m
+  Processing by TimeunitsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTimeunit Load (1.1ms)[0m  SELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mBooking Load (0.4ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings".timeunit_id = 1)
+  [1m[36mAREL (0.7ms)[0m  [1mDELETE FROM "timeunits" WHERE ("timeunits"."id" = 1)[0m
+  [1m[35mSQL (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/timeunits
+Completed 302 Found in 7ms
+  [1m[36mSQL (0.4ms)[0m  [1mSELECT COUNT(*) FROM "timeunits"[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTimeunit Load (0.4ms)[0m  SELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1
+  Processing by TimeunitsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTimeunit Load (0.5ms)[0m  [1mSELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1[0m
+Rendered timeunits/_form.html.erb (20.4ms)
+Completed 200 OK in 61ms (Views: 58.2ms | ActiveRecord: 14.9ms)
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTimeunit Load (0.4ms)[0m  SELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1
+  Processing by TimeunitsController#index as HTML
+  [1m[36mTimeunit Load (0.4ms)[0m  [1mSELECT "timeunits".* FROM "timeunits"[0m
+Completed 200 OK in 28ms (Views: 26.6ms | ActiveRecord: 1.3ms)
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTimeunit Load (0.5ms)[0m  SELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1
+  Processing by TimeunitsController#new as HTML
+Rendered timeunits/_form.html.erb (16.0ms)
+Completed 200 OK in 34ms (Views: 33.0ms | ActiveRecord: 1.0ms)
+  [1m[36mSQL (1.0ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mTimeunit Load (0.5ms)[0m  [1mSELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1[0m
+  Processing by TimeunitsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTimeunit Load (0.5ms)[0m  SELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1
+Completed 200 OK in 21ms (Views: 18.9ms | ActiveRecord: 2.3ms)
+  [1m[36mSQL (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.3ms)[0m  BEGIN
+  [1m[36mTimeunit Load (0.4ms)[0m  [1mSELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1[0m
+  Processing by TimeunitsController#update as HTML
+  Parameters: {"id"=>"1", "timeunit"=>{"timein"=>Sat Jan 01 06:30:00 UTC 2000, "created_at"=>Sat Dec 25 21:15:34 UTC 2010, "updated_at"=>Sat Dec 25 21:15:34 UTC 2010, "timeout"=>Sat Jan 01 07:15:00 UTC 2000, "id"=>1}}
+  [1m[35mTimeunit Load (0.5ms)[0m  SELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+WARNING: Can't mass-assign protected attributes: id
+  [1m[35mBooking Load (0.4ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings".timeunit_id = 1)
+  [1m[36mSQL (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed   in 6ms
+  [1m[35mSQL (0.7ms)[0m  ROLLBACK
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.2ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.3ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.2ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.6ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TIME ZONE
+  [1m[36mSQL (4.1ms)[0m  [1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [1m[35mSQL (0.3ms)[0m  BEGIN
+  [1m[36mSQL (1.2ms)[0m  [1m SELECT tablename
+ FROM pg_tables
+ WHERE schemaname = ANY (current_schemas(false))
+[0m
+  [1m[35mSQL (0.9ms)[0m   SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+  [1m[36mStudent Load (0.5ms)[0m  [1mSELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1[0m
+
+
+Started POST "/login" for 127.0.0.1 at Sun Dec 26 04:15:38 +0700 2010
+  Processing by StudentSessionsController#new as HTML
+  Parameters: {"crypted_password"=>"[FILTERED]", "email"=>"trietptm@gmail.com"}
+Rendered student_sessions/_form.html.erb (17.3ms)
+Rendered student_sessions/new.html.erb within layouts/application (33.5ms)
+Completed 200 OK in 61ms (Views: 58.8ms | ActiveRecord: 65.7ms)
+  [1m[35mSQL (0.4ms)[0m  ROLLBACK
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.2ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.2ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.2ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.5ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TIME ZONE
+  [1m[36mSQL (19.0ms)[0m  [1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.2ms)[0m   SELECT tablename
+ FROM pg_tables
+ WHERE schemaname = ANY (current_schemas(false))
+  [1m[36mSQL (0.9ms)[0m  [1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [1m[35mStudent Load (2.2ms)[0m  SELECT "students"."id" FROM "students" WHERE ("students"."persistence_token" = '3916811b1bc764820cb109dce01248b08e081514cc95aeffac559c2e606f75e40ca3c3dc44422625b5946f9408171b6fa9641eec39270eebd8e581c644fd02f1') LIMIT 1
+  [1m[36mStudent Load (0.5ms)[0m  [1mSELECT "students"."id" FROM "students" WHERE ("students"."studentid" IS NULL) LIMIT 1[0m
+  [1m[35mStudent Load (0.9ms)[0m  SELECT "students"."id" FROM "students" WHERE ("students"."email" IS NULL) LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.2ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.2ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.2ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.5ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TIME ZONE
+  [1m[36mSQL (24.5ms)[0m  [1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.2ms)[0m   SELECT tablename
+ FROM pg_tables
+ WHERE schemaname = ANY (current_schemas(false))
+  [1m[36mSQL (0.9ms)[0m  [1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [1m[35mStudent Load (0.9ms)[0m  SELECT "students"."id" FROM "students" WHERE ("students"."persistence_token" = '2ec3513affb9d3eac70693898eac1828579534f9807ff34093bd4909cbb4437877668cb8e0506e158d82a2befda5c0165f135d58fe5baf1b7c2aa771fcbe8a91') LIMIT 1
+  [1m[36mStudent Load (0.7ms)[0m  [1mSELECT "students"."id" FROM "students" WHERE ("students"."studentid" IS NULL) LIMIT 1[0m
+  [1m[35mStudent Load (0.3ms)[0m  SELECT "students"."id" FROM "students" WHERE ("students"."email" IS NULL) LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.2ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.2ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.2ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.5ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TIME ZONE
+  [1m[36mSQL (18.7ms)[0m  [1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [1m[35mSQL (0.3ms)[0m  BEGIN
+  [1m[36mSQL (2.1ms)[0m  [1m SELECT tablename
+ FROM pg_tables
+ WHERE schemaname = ANY (current_schemas(false))
+[0m
+  [1m[35mSQL (0.9ms)[0m   SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"bookings"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+  [1m[36mBooking Load (0.6ms)[0m  [1mSELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  SELECT COUNT(*) FROM "bookings"
+  Processing by BookingsController#create as HTML
+  Parameters: {"booking"=>{"student_id"=>0, "computer_id"=>0, "created_at"=>Sat Dec 25 21:23:10 UTC 2010, "timeunit_id"=>0, "updated_at"=>Sat Dec 25 21:23:10 UTC 2010, "id"=>1, "date"=>Sun, 26 Dec 2010}}
+WARNING: Can't mass-assign protected attributes: id
+  [1m[36mSQL (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPK and serial sequence (3.2ms)[0m   SELECT attr.attname, seq.relname
+ FROM pg_class seq,
+ pg_attribute attr,
+ pg_depend dep,
+ pg_namespace name,
+ pg_constraint cons
+ WHERE seq.oid = dep.objid
+ AND seq.relkind = 'S'
+ AND attr.attrelid = dep.refobjid
+ AND attr.attnum = dep.refobjsubid
+ AND attr.attrelid = cons.conrelid
+ AND attr.attnum = cons.conkey[1]
+ AND cons.contype = 'p'
+ AND dep.refobjid = '"bookings"'::regclass
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "bookings" ("created_at", "updated_at", "student_id", "date", "timeunit_id", "computer_id") VALUES ('2010-12-25 21:23:10.000000', '2010-12-25 21:23:10.000000', 0, '2010-12-26', 0, 0) RETURNING "id"[0m
+  [1m[35mSQL (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/bookings/3
+Completed 302 Found in 19ms
+  [1m[36mSQL (0.4ms)[0m  [1mSELECT COUNT(*) FROM "bookings"[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mBooking Load (0.6ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mSELECT COUNT(*) FROM "bookings"[0m
+  Processing by BookingsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBooking Load (0.6ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "bookings" WHERE ("bookings"."id" = 1)
+  [1m[36mSQL (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/bookings
+Completed 302 Found in 4ms
+  [1m[35mSQL (0.3ms)[0m  SELECT COUNT(*) FROM "bookings"
+  [1m[36mSQL (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mBooking Load (0.9ms)[0m  [1mSELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1[0m
+  Processing by BookingsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBooking Load (0.5ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1
+  [1m[36mComputer Load (0.6ms)[0m  [1mSELECT "computers".* FROM "computers"[0m
+  [1m[35mTimeunit Load (0.5ms)[0m  SELECT "timeunits".* FROM "timeunits"
+Rendered bookings/_form.html.erb (24.5ms)
+Completed 200 OK in 38ms (Views: 34.4ms | ActiveRecord: 422.6ms)
+  [1m[36mSQL (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mBooking Load (0.5ms)[0m  [1mSELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1[0m
+  Processing by BookingsController#index as HTML
+  [1m[35mBooking Load (0.7ms)[0m  SELECT "bookings".* FROM "bookings" WHERE (student_id = NULL)
+Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 1.7ms)
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mBooking Load (0.4ms)[0m  [1mSELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1[0m
+  Processing by BookingsController#new as HTML
+  [1m[35mComputer Load (0.4ms)[0m  SELECT "computers".* FROM "computers"
+  [1m[36mTimeunit Load (0.3ms)[0m  [1mSELECT "timeunits".* FROM "timeunits"[0m
+  [1m[35mComputer Load (0.4ms)[0m  SELECT "computers".* FROM "computers"
+  [1m[36mTimeunit Load (0.3ms)[0m  [1mSELECT "timeunits".* FROM "timeunits"[0m
+Rendered bookings/_form.html.erb (11.9ms)
+Completed 200 OK in 20ms (Views: 16.3ms | ActiveRecord: 2.3ms)
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mBooking Load (1.4ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1
+  Processing by BookingsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBooking Load (0.7ms)[0m  [1mSELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1[0m
+  [1m[35mSQL (1.0ms)[0m   SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+  [1m[36mStudent Load (0.5ms)[0m  [1mSELECT "students".* FROM "students" WHERE ("students"."id" = 0) LIMIT 1[0m
+Completed   in 11ms
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mBooking Load (0.4ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1
+  Processing by BookingsController#update as HTML
+  Parameters: {"booking"=>{"student_id"=>0, "computer_id"=>0, "created_at"=>Sat Dec 25 21:23:10 UTC 2010, "timeunit_id"=>0, "updated_at"=>Sat Dec 25 21:23:10 UTC 2010, "id"=>1, "date"=>Sun, 26 Dec 2010}, "id"=>"1"}
+  [1m[36mBooking Load (0.5ms)[0m  [1mSELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+WARNING: Can't mass-assign protected attributes: id
+  [1m[36mSQL (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/bookings/1
+Completed 302 Found in 6ms
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m   SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"computers"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+  [1m[36mComputer Load (0.4ms)[0m  [1mSELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT COUNT(*) FROM "computers"
+  Processing by ComputersController#create as HTML
+  Parameters: {"computer"=>{"number"=>1, "created_at"=>Sat Dec 25 21:23:10 UTC 2010, "updated_at"=>Sat Dec 25 21:23:10 UTC 2010, "id"=>1, "block"=>"C6", "room"=>"Renesas"}}
+WARNING: Can't mass-assign protected attributes: id
+  [1m[36mSQL (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPK and serial sequence (3.2ms)[0m   SELECT attr.attname, seq.relname
+ FROM pg_class seq,
+ pg_attribute attr,
+ pg_depend dep,
+ pg_namespace name,
+ pg_constraint cons
+ WHERE seq.oid = dep.objid
+ AND seq.relkind = 'S'
+ AND attr.attrelid = dep.refobjid
+ AND attr.attnum = dep.refobjsubid
+ AND attr.attrelid = cons.conrelid
+ AND attr.attnum = cons.conkey[1]
+ AND cons.contype = 'p'
+ AND dep.refobjid = '"computers"'::regclass
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "computers" ("created_at", "block", "updated_at", "room", "number") VALUES ('2010-12-25 21:23:10.000000', 'C6', '2010-12-25 21:23:10.000000', 'Renesas', 1) RETURNING "id"[0m
+  [1m[35mSQL (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/computers/3
+Completed 302 Found in 13ms
+  [1m[36mSQL (0.4ms)[0m  [1mSELECT COUNT(*) FROM "computers"[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mComputer Load (1.3ms)[0m  SELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT COUNT(*) FROM "computers"[0m
+  Processing by ComputersController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mComputer Load (0.5ms)[0m  SELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mBooking Load (0.3ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings".computer_id = 1)
+  [1m[36mAREL (0.3ms)[0m  [1mDELETE FROM "computers" WHERE ("computers"."id" = 1)[0m
+  [1m[35mSQL (0.9ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/computers
+Completed 302 Found in 6ms
+  [1m[36mSQL (0.4ms)[0m  [1mSELECT COUNT(*) FROM "computers"[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mComputer Load (0.5ms)[0m  SELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1
+  Processing by ComputersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mComputer Load (0.5ms)[0m  [1mSELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1[0m
+Rendered computers/_form.html.erb (7.1ms)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 15.7ms)
+  [1m[35mSQL (1.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mComputer Load (0.5ms)[0m  SELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1
+  Processing by ComputersController#index as HTML
+  [1m[36mComputer Load (0.4ms)[0m  [1mSELECT "computers".* FROM "computers"[0m
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 2.1ms)
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mComputer Load (0.4ms)[0m  SELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1
+  Processing by ComputersController#new as HTML
+Rendered computers/_form.html.erb (4.7ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.9ms)
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mComputer Load (0.4ms)[0m  [1mSELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1[0m
+  Processing by ComputersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mComputer Load (0.5ms)[0m  SELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 1.4ms)
+  [1m[36mSQL (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mComputer Load (0.4ms)[0m  [1mSELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1[0m
+  Processing by ComputersController#update as HTML
+  Parameters: {"id"=>"1", "computer"=>{"number"=>1, "created_at"=>Sat Dec 25 21:23:10 UTC 2010, "updated_at"=>Sat Dec 25 21:23:10 UTC 2010, "id"=>1, "block"=>"C6", "room"=>"Renesas"}}
+  [1m[35mComputer Load (1.3ms)[0m  SELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+WARNING: Can't mass-assign protected attributes: id
+  [1m[35mBooking Load (0.7ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings".computer_id = 1)
+  [1m[36mSQL (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/computers/1
+Completed 302 Found in 9ms
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  Processing by HomeController#index as HTML
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 3.7ms)
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK
+  [1m[36mSQL (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mStudent Load (0.5ms)[0m  SELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT COUNT(*) FROM "students"[0m
+  Processing by StudentsController#create as HTML
+  Parameters: {"student"=>{"name"=>"Triet", "created_at"=>Sat Dec 25 21:23:10 UTC 2010, "studentid"=>12345678, "crypted_password"=>"[FILTERED]", "updated_at"=>Sat Dec 25 21:23:10 UTC 2010, "id"=>1, "password_salt"=>"[FILTERED]", "persistence_token"=>nil, "email"=>"trietptm@gmail.com"}}
+WARNING: Can't mass-assign protected attributes: id
+  [1m[35mSQL (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mStudent Load (0.9ms)[0m  [1mSELECT "students"."id" FROM "students" WHERE (LOWER("students"."email") = LOWER('trietptm@gmail.com')) LIMIT 1[0m
+  [1m[35mStudent Load (0.9ms)[0m  SELECT "students"."id" FROM "students" WHERE ("students"."persistence_token" = '8965ffa20ed69978bbabd8b1c9cd03e0fe0c81a4a136e3ee3ae09eac43fd51e5569aa0f1c7afcde783f4017fe5542a8c4f3804352adac84474ded69b4fbe8adf') LIMIT 1
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students"."id" FROM "students" WHERE ("students"."studentid" = 12345678) LIMIT 1[0m
+  [1m[35mStudent Load (0.6ms)[0m  SELECT "students"."id" FROM "students" WHERE ("students"."email" = 'trietptm@gmail.com') LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Rendered students/_form.html.erb (15.3ms)
+Completed 200 OK in 121ms (Views: 24.3ms | ActiveRecord: 7.3ms)
+  [1m[35mSQL (0.5ms)[0m  SELECT COUNT(*) FROM "students"
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mStudent Load (0.8ms)[0m  [1mSELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  SELECT COUNT(*) FROM "students"
+  Processing by StudentsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mStudent Load (0.5ms)[0m  [1mSELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mBooking Load (0.6ms)[0m  [1mSELECT "bookings".* FROM "bookings" WHERE ("bookings".student_id = 1)[0m
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "students" WHERE ("students"."id" = 1)
+  [1m[36mSQL (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/students
+Completed 302 Found in 6ms
+  [1m[35mSQL (0.3ms)[0m  SELECT COUNT(*) FROM "students"
+  [1m[36mSQL (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.8ms)[0m  BEGIN
+  [1m[36mStudent Load (0.5ms)[0m  [1mSELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1[0m
+  Processing by StudentsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mStudent Load (0.5ms)[0m  SELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1
+Rendered students/_form.html.erb (8.1ms)
+Completed 200 OK in 17ms (Views: 14.8ms | ActiveRecord: 6.6ms)
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mStudent Load (0.5ms)[0m  [1mSELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1[0m
+  Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.5ms)[0m  SELECT "students".* FROM "students"
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 1.5ms)
+  [1m[36mSQL (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mStudent Load (0.4ms)[0m  [1mSELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1[0m
+  Processing by StudentsController#new as HTML
+Rendered students/_form.html.erb (7.2ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 1.1ms)
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mStudent Load (0.5ms)[0m  SELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1
+  Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mStudent Load (0.6ms)[0m  [1mSELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1[0m
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 1.5ms)
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mStudent Load (0.6ms)[0m  SELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1
+  Processing by StudentsController#update as HTML
+  Parameters: {"id"=>"1", "student"=>{"name"=>"Triet", "created_at"=>Sat Dec 25 21:23:10 UTC 2010, "studentid"=>12345678, "crypted_password"=>"[FILTERED]", "updated_at"=>Sat Dec 25 21:23:10 UTC 2010, "id"=>1, "password_salt"=>"[FILTERED]", "persistence_token"=>nil, "email"=>"trietptm@gmail.com"}}
+  [1m[36mStudent Load (0.6ms)[0m  [1mSELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+WARNING: Can't mass-assign protected attributes: id
+  [1m[36mStudent Load (0.5ms)[0m  [1mSELECT "students"."id" FROM "students" WHERE ("students"."persistence_token" = '288dc6688d2c8633817691f3e20d2e8a891a87451555d5bd3e114d176852b7d0bfda40855d3e10fe12d63bb6839c9917ade0f339b81753da6739e42752d8f6de') AND ("students".id <> 1) LIMIT 1[0m
+  [1m[35mStudent Load (0.3ms)[0m  SELECT "students"."id" FROM "students" WHERE ("students"."studentid" = 12345678) AND ("students".id <> 1) LIMIT 1
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students"."id" FROM "students" WHERE ("students"."email" = 'trietptm@gmail.com') AND ("students".id <> 1) LIMIT 1[0m
+  [1m[35mBooking Load (0.4ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings".student_id = 1)
+  [1m[36mAREL (0.6ms)[0m  [1mUPDATE "students" SET "persistence_token" = '288dc6688d2c8633817691f3e20d2e8a891a87451555d5bd3e114d176852b7d0bfda40855d3e10fe12d63bb6839c9917ade0f339b81753da6739e42752d8f6de', "updated_at" = '2010-12-25 21:23:11.947497' WHERE ("students"."id" = 1)[0m
+  [1m[35mSQL (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/students/1
+Completed 302 Found in 20ms
+  [1m[36mSQL (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"timeunits"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [1m[35mTimeunit Load (1.2ms)[0m  SELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mSELECT COUNT(*) FROM "timeunits"[0m
+  Processing by TimeunitsController#create as HTML
+  Parameters: {"timeunit"=>{"timein"=>Sat Jan 01 06:30:00 UTC 2000, "created_at"=>Sat Dec 25 21:23:10 UTC 2010, "updated_at"=>Sat Dec 25 21:23:10 UTC 2010, "timeout"=>Sat Jan 01 07:15:00 UTC 2000, "id"=>1}}
+WARNING: Can't mass-assign protected attributes: id
+  [1m[35mSQL (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed   in 5ms
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTimeunit Load (0.4ms)[0m  SELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mSELECT COUNT(*) FROM "timeunits"[0m
+  Processing by TimeunitsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTimeunit Load (1.8ms)[0m  SELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mBooking Load (0.4ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings".timeunit_id = 1)
+  [1m[36mAREL (0.3ms)[0m  [1mDELETE FROM "timeunits" WHERE ("timeunits"."id" = 1)[0m
+  [1m[35mSQL (0.8ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/timeunits
+Completed 302 Found in 8ms
+  [1m[36mSQL (0.4ms)[0m  [1mSELECT COUNT(*) FROM "timeunits"[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTimeunit Load (0.4ms)[0m  SELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1
+  Processing by TimeunitsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTimeunit Load (0.6ms)[0m  [1mSELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1[0m
+Rendered timeunits/_form.html.erb (14.3ms)
+Completed 200 OK in 26ms (Views: 24.1ms | ActiveRecord: 14.3ms)
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTimeunit Load (0.5ms)[0m  SELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1
+  Processing by TimeunitsController#index as HTML
+  [1m[36mTimeunit Load (0.4ms)[0m  [1mSELECT "timeunits".* FROM "timeunits"[0m
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 1.4ms)
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTimeunit Load (1.1ms)[0m  SELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1
+  Processing by TimeunitsController#new as HTML
+Rendered timeunits/_form.html.erb (13.0ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 1.6ms)
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mTimeunit Load (0.4ms)[0m  [1mSELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1[0m
+  Processing by TimeunitsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTimeunit Load (1.2ms)[0m  SELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1
+Completed 200 OK in 8ms (Views: 5.7ms | ActiveRecord: 2.1ms)
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mTimeunit Load (0.4ms)[0m  [1mSELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1[0m
+  Processing by TimeunitsController#update as HTML
+  Parameters: {"id"=>"1", "timeunit"=>{"timein"=>Sat Jan 01 06:30:00 UTC 2000, "created_at"=>Sat Dec 25 21:23:10 UTC 2010, "updated_at"=>Sat Dec 25 21:23:10 UTC 2010, "timeout"=>Sat Jan 01 07:15:00 UTC 2000, "id"=>1}}
+  [1m[35mTimeunit Load (0.5ms)[0m  SELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+WARNING: Can't mass-assign protected attributes: id
+  [1m[35mBooking Load (0.3ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings".timeunit_id = 1)
+  [1m[36mSQL (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed   in 5ms
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.6ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (0.2ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.4ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.2ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.8ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TIME ZONE
+  [1m[36mSQL (15.3ms)[0m  [1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [1m[35mSQL (0.3ms)[0m  BEGIN
+  [1m[36mSQL (2.2ms)[0m  [1m SELECT tablename
+ FROM pg_tables
+ WHERE schemaname = ANY (current_schemas(false))
+[0m
+  [1m[35mSQL (0.9ms)[0m   SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"bookings"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+  [1m[36mBooking Load (0.6ms)[0m  [1mSELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  SELECT COUNT(*) FROM "bookings"
+  Processing by BookingsController#create as HTML
+  Parameters: {"booking"=>{"student_id"=>0, "computer_id"=>0, "created_at"=>Sat Dec 25 21:28:40 UTC 2010, "timeunit_id"=>0, "updated_at"=>Sat Dec 25 21:28:40 UTC 2010, "id"=>1, "date"=>Sun, 26 Dec 2010}}
+WARNING: Can't mass-assign protected attributes: id
+  [1m[36mSQL (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPK and serial sequence (3.1ms)[0m   SELECT attr.attname, seq.relname
+ FROM pg_class seq,
+ pg_attribute attr,
+ pg_depend dep,
+ pg_namespace name,
+ pg_constraint cons
+ WHERE seq.oid = dep.objid
+ AND seq.relkind = 'S'
+ AND attr.attrelid = dep.refobjid
+ AND attr.attnum = dep.refobjsubid
+ AND attr.attrelid = cons.conrelid
+ AND attr.attnum = cons.conkey[1]
+ AND cons.contype = 'p'
+ AND dep.refobjid = '"bookings"'::regclass
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "bookings" ("timeunit_id", "student_id", "computer_id", "created_at", "date", "updated_at") VALUES (0, 0, 0, '2010-12-25 21:28:40.000000', '2010-12-26', '2010-12-25 21:28:40.000000') RETURNING "id"[0m
+  [1m[35mSQL (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/bookings/3
+Completed 302 Found in 19ms
+  [1m[36mSQL (0.4ms)[0m  [1mSELECT COUNT(*) FROM "bookings"[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mBooking Load (0.4ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT COUNT(*) FROM "bookings"[0m
+  Processing by BookingsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBooking Load (0.5ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "bookings" WHERE ("bookings"."id" = 1)
+  [1m[36mSQL (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/bookings
+Completed 302 Found in 5ms
+  [1m[35mSQL (0.3ms)[0m  SELECT COUNT(*) FROM "bookings"
+  [1m[36mSQL (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mBooking Load (1.4ms)[0m  [1mSELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1[0m
+  Processing by BookingsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBooking Load (0.6ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1
+  [1m[36mComputer Load (0.7ms)[0m  [1mSELECT "computers".* FROM "computers"[0m
+  [1m[35mTimeunit Load (0.5ms)[0m  SELECT "timeunits".* FROM "timeunits"
+Rendered bookings/_form.html.erb (24.5ms)
+Completed 200 OK in 38ms (Views: 34.8ms | ActiveRecord: 96.8ms)
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mBooking Load (0.4ms)[0m  [1mSELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1[0m
+  Processing by BookingsController#index as HTML
+  [1m[35mBooking Load (0.5ms)[0m  SELECT "bookings".* FROM "bookings" WHERE (student_id = NULL)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 1.4ms)
+  [1m[36mSQL (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mBooking Load (0.4ms)[0m  [1mSELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1[0m
+  Processing by BookingsController#new as HTML
+  [1m[35mComputer Load (0.5ms)[0m  SELECT "computers".* FROM "computers"
+  [1m[36mTimeunit Load (0.3ms)[0m  [1mSELECT "timeunits".* FROM "timeunits"[0m
+  [1m[35mComputer Load (0.4ms)[0m  SELECT "computers".* FROM "computers"
+  [1m[36mTimeunit Load (0.3ms)[0m  [1mSELECT "timeunits".* FROM "timeunits"[0m
+Rendered bookings/_form.html.erb (12.0ms)
+Completed 200 OK in 20ms (Views: 16.5ms | ActiveRecord: 2.4ms)
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mBooking Load (0.5ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1
+  Processing by BookingsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBooking Load (0.5ms)[0m  [1mSELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1[0m
+  [1m[35mSQL (1.3ms)[0m   SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+  [1m[36mStudent Load (0.7ms)[0m  [1mSELECT "students".* FROM "students" WHERE ("students"."id" = 0) LIMIT 1[0m
+Completed   in 12ms
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mBooking Load (0.8ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1
+  Processing by BookingsController#update as HTML
+  Parameters: {"booking"=>{"student_id"=>0, "computer_id"=>0, "created_at"=>Sat Dec 25 21:28:40 UTC 2010, "timeunit_id"=>0, "updated_at"=>Sat Dec 25 21:28:40 UTC 2010, "id"=>1, "date"=>Sun, 26 Dec 2010}, "id"=>"1"}
+  [1m[36mBooking Load (0.6ms)[0m  [1mSELECT "bookings".* FROM "bookings" WHERE ("bookings"."id" = 1) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+WARNING: Can't mass-assign protected attributes: id
+  [1m[36mSQL (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/bookings/1
+Completed 302 Found in 6ms
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m   SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"computers"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+  [1m[36mComputer Load (0.6ms)[0m  [1mSELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT COUNT(*) FROM "computers"
+  Processing by ComputersController#create as HTML
+  Parameters: {"computer"=>{"number"=>1, "created_at"=>Sat Dec 25 21:28:40 UTC 2010, "updated_at"=>Sat Dec 25 21:28:40 UTC 2010, "id"=>1, "block"=>"C6", "room"=>"Renesas"}}
+WARNING: Can't mass-assign protected attributes: id
+  [1m[36mSQL (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPK and serial sequence (3.2ms)[0m   SELECT attr.attname, seq.relname
+ FROM pg_class seq,
+ pg_attribute attr,
+ pg_depend dep,
+ pg_namespace name,
+ pg_constraint cons
+ WHERE seq.oid = dep.objid
+ AND seq.relkind = 'S'
+ AND attr.attrelid = dep.refobjid
+ AND attr.attnum = dep.refobjsubid
+ AND attr.attrelid = cons.conrelid
+ AND attr.attnum = cons.conkey[1]
+ AND cons.contype = 'p'
+ AND dep.refobjid = '"computers"'::regclass
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "computers" ("updated_at", "number", "room", "block", "created_at") VALUES ('2010-12-25 21:28:40.000000', 1, 'Renesas', 'C6', '2010-12-25 21:28:40.000000') RETURNING "id"[0m
+  [1m[35mSQL (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/computers/3
+Completed 302 Found in 12ms
+  [1m[36mSQL (0.4ms)[0m  [1mSELECT COUNT(*) FROM "computers"[0m
+  [1m[35mSQL (0.4ms)[0m  ROLLBACK
+  [1m[36mSQL (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mComputer Load (0.4ms)[0m  SELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1
+  [1m[36mSQL (1.0ms)[0m  [1mSELECT COUNT(*) FROM "computers"[0m
+  Processing by ComputersController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mComputer Load (0.5ms)[0m  SELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mBooking Load (0.6ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings".computer_id = 1)
+  [1m[36mAREL (0.3ms)[0m  [1mDELETE FROM "computers" WHERE ("computers"."id" = 1)[0m
+  [1m[35mSQL (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/computers
+Completed 302 Found in 7ms
+  [1m[36mSQL (0.4ms)[0m  [1mSELECT COUNT(*) FROM "computers"[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mComputer Load (0.4ms)[0m  SELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1
+  Processing by ComputersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mComputer Load (0.6ms)[0m  [1mSELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1[0m
+Rendered computers/_form.html.erb (6.3ms)
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 16.9ms)
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mComputer Load (0.5ms)[0m  SELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1
+  Processing by ComputersController#index as HTML
+  [1m[36mComputer Load (0.4ms)[0m  [1mSELECT "computers".* FROM "computers"[0m
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 1.4ms)
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mComputer Load (0.4ms)[0m  SELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1
+  Processing by ComputersController#new as HTML
+Rendered computers/_form.html.erb (4.7ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.9ms)
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mComputer Load (0.4ms)[0m  [1mSELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1[0m
+  Processing by ComputersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mComputer Load (0.5ms)[0m  SELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 1.3ms)
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mComputer Load (0.8ms)[0m  [1mSELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1[0m
+  Processing by ComputersController#update as HTML
+  Parameters: {"id"=>"1", "computer"=>{"number"=>1, "created_at"=>Sat Dec 25 21:28:40 UTC 2010, "updated_at"=>Sat Dec 25 21:28:40 UTC 2010, "id"=>1, "block"=>"C6", "room"=>"Renesas"}}
+  [1m[35mComputer Load (0.5ms)[0m  SELECT "computers".* FROM "computers" WHERE ("computers"."id" = 1) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+WARNING: Can't mass-assign protected attributes: id
+  [1m[35mBooking Load (0.4ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings".computer_id = 1)
+  [1m[36mSQL (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/computers/1
+Completed 302 Found in 8ms
+  [1m[35mSQL (1.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  Processing by HomeController#index as HTML
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 3.8ms)
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mStudent Load (0.5ms)[0m  SELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT COUNT(*) FROM "students"[0m
+  Processing by StudentsController#create as HTML
+  Parameters: {"student"=>{"name"=>"Triet", "created_at"=>Sat Dec 25 21:28:40 UTC 2010, "studentid"=>12345678, "crypted_password"=>"[FILTERED]", "updated_at"=>Sat Dec 25 21:28:40 UTC 2010, "id"=>1, "password_salt"=>"[FILTERED]", "persistence_token"=>nil, "email"=>"trietptm@gmail.com"}}
+WARNING: Can't mass-assign protected attributes: id
+  [1m[35mSQL (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mStudent Load (0.8ms)[0m  [1mSELECT "students"."id" FROM "students" WHERE (LOWER("students"."email") = LOWER('trietptm@gmail.com')) LIMIT 1[0m
+  [1m[35mStudent Load (0.9ms)[0m  SELECT "students"."id" FROM "students" WHERE ("students"."persistence_token" = '4659c76c925e21f18022ecc63d4c4ee1eaaa9e64cc76e9157866b0af2b2d6208f7178a61e4c806b8ff4f9bddacdbf42506ec3b17a8edaa086855e79c9a519eec') LIMIT 1
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students"."id" FROM "students" WHERE ("students"."studentid" = 12345678) LIMIT 1[0m
+  [1m[35mStudent Load (0.4ms)[0m  SELECT "students"."id" FROM "students" WHERE ("students"."email" = 'trietptm@gmail.com') LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Rendered students/_form.html.erb (15.2ms)
+Completed 200 OK in 119ms (Views: 91.7ms | ActiveRecord: 4.2ms)
+  [1m[35mSQL (0.5ms)[0m  SELECT COUNT(*) FROM "students"
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mStudent Load (0.5ms)[0m  [1mSELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT COUNT(*) FROM "students"
+  Processing by StudentsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mStudent Load (0.7ms)[0m  [1mSELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mBooking Load (0.6ms)[0m  [1mSELECT "bookings".* FROM "bookings" WHERE ("bookings".student_id = 1)[0m
+  [1m[35mAREL (0.7ms)[0m  DELETE FROM "students" WHERE ("students"."id" = 1)
+  [1m[36mSQL (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/students
+Completed 302 Found in 7ms
+  [1m[35mSQL (0.3ms)[0m  SELECT COUNT(*) FROM "students"
+  [1m[36mSQL (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mStudent Load (0.4ms)[0m  [1mSELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1[0m
+  Processing by StudentsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mStudent Load (0.7ms)[0m  SELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1
+Rendered students/_form.html.erb (8.4ms)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 6.1ms)
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mStudent Load (0.5ms)[0m  [1mSELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1[0m
+  Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.7ms)[0m  SELECT "students".* FROM "students"
+Completed 200 OK in 13ms (Views: 10.5ms | ActiveRecord: 1.7ms)
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mStudent Load (1.7ms)[0m  [1mSELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1[0m
+  Processing by StudentsController#new as HTML
+Rendered students/_form.html.erb (7.0ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 2.2ms)
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mStudent Load (0.4ms)[0m  SELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1
+  Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mStudent Load (0.5ms)[0m  [1mSELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1[0m
+Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 1.4ms)
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mStudent Load (0.4ms)[0m  SELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1
+  Processing by StudentsController#update as HTML
+  Parameters: {"id"=>"1", "student"=>{"name"=>"Triet", "created_at"=>Sat Dec 25 21:28:40 UTC 2010, "studentid"=>12345678, "crypted_password"=>"[FILTERED]", "updated_at"=>Sat Dec 25 21:28:40 UTC 2010, "id"=>1, "password_salt"=>"[FILTERED]", "persistence_token"=>nil, "email"=>"trietptm@gmail.com"}}
+  [1m[36mStudent Load (0.5ms)[0m  [1mSELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+WARNING: Can't mass-assign protected attributes: id
+  [1m[36mStudent Load (0.6ms)[0m  [1mSELECT "students"."id" FROM "students" WHERE ("students"."persistence_token" = '3ea9d29c6deb5bbf3ffbd4f545e194eca24174a90ed6f5ca80bf680360b4b83d78f4805aebc4cad22f55cb19f7a5819b33cbf904c631297337cac91a7e9c35a6') AND ("students".id <> 1) LIMIT 1[0m
+  [1m[35mStudent Load (0.3ms)[0m  SELECT "students"."id" FROM "students" WHERE ("students"."studentid" = 12345678) AND ("students".id <> 1) LIMIT 1
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students"."id" FROM "students" WHERE ("students"."email" = 'trietptm@gmail.com') AND ("students".id <> 1) LIMIT 1[0m
+  [1m[35mBooking Load (0.3ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings".student_id = 1)
+  [1m[36mAREL (0.6ms)[0m  [1mUPDATE "students" SET "updated_at" = '2010-12-25 21:28:41.052037', "persistence_token" = '3ea9d29c6deb5bbf3ffbd4f545e194eca24174a90ed6f5ca80bf680360b4b83d78f4805aebc4cad22f55cb19f7a5819b33cbf904c631297337cac91a7e9c35a6' WHERE ("students"."id" = 1)[0m
+  [1m[35mSQL (0.6ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/students/1
+Completed 302 Found in 19ms
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"timeunits"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [1m[35mTimeunit Load (0.4ms)[0m  SELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT COUNT(*) FROM "timeunits"[0m
+  Processing by TimeunitsController#create as HTML
+  Parameters: {"timeunit"=>{"timein"=>Sat Jan 01 06:30:00 UTC 2000, "created_at"=>Sat Dec 25 21:28:40 UTC 2010, "updated_at"=>Sat Dec 25 21:28:40 UTC 2010, "timeout"=>Sat Jan 01 07:15:00 UTC 2000, "id"=>1}}
+WARNING: Can't mass-assign protected attributes: id
+  [1m[35mSQL (0.5ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed   in 5ms
+  [1m[35mSQL (0.5ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTimeunit Load (1.2ms)[0m  SELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT COUNT(*) FROM "timeunits"[0m
+  Processing by TimeunitsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTimeunit Load (0.5ms)[0m  SELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mBooking Load (0.7ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings".timeunit_id = 1)
+  [1m[36mAREL (0.3ms)[0m  [1mDELETE FROM "timeunits" WHERE ("timeunits"."id" = 1)[0m
+  [1m[35mSQL (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/timeunits
+Completed 302 Found in 6ms
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT COUNT(*) FROM "timeunits"[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTimeunit Load (0.4ms)[0m  SELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1
+  Processing by TimeunitsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTimeunit Load (0.6ms)[0m  [1mSELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1[0m
+Rendered timeunits/_form.html.erb (14.0ms)
+Completed 200 OK in 26ms (Views: 23.8ms | ActiveRecord: 12.9ms)
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTimeunit Load (0.4ms)[0m  SELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1
+  Processing by TimeunitsController#index as HTML
+  [1m[36mTimeunit Load (0.4ms)[0m  [1mSELECT "timeunits".* FROM "timeunits"[0m
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 1.4ms)
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTimeunit Load (0.5ms)[0m  SELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1
+  Processing by TimeunitsController#new as HTML
+Rendered timeunits/_form.html.erb (13.7ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 1.0ms)
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mTimeunit Load (0.7ms)[0m  [1mSELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1[0m
+  Processing by TimeunitsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTimeunit Load (0.5ms)[0m  SELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1
+Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 1.7ms)
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mTimeunit Load (0.4ms)[0m  [1mSELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1[0m
+  Processing by TimeunitsController#update as HTML
+  Parameters: {"id"=>"1", "timeunit"=>{"timein"=>Sat Jan 01 06:30:00 UTC 2000, "created_at"=>Sat Dec 25 21:28:40 UTC 2010, "updated_at"=>Sat Dec 25 21:28:40 UTC 2010, "timeout"=>Sat Jan 01 07:15:00 UTC 2000, "id"=>1}}
+  [1m[35mTimeunit Load (0.5ms)[0m  SELECT "timeunits".* FROM "timeunits" WHERE ("timeunits"."id" = 1) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+WARNING: Can't mass-assign protected attributes: id
+  [1m[35mBooking Load (0.3ms)[0m  SELECT "bookings".* FROM "bookings" WHERE ("bookings".timeunit_id = 1)
+  [1m[36mSQL (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed   in 6ms
+  [1m[35mSQL (0.4ms)[0m  ROLLBACK
+  [1m[36mSQL (0.6ms)[0m  [1mSHOW client_min_messages[0m
+  [1m[35mSQL (2.1ms)[0m  SET client_min_messages TO 'panic'
+  [1m[36mSQL (0.5ms)[0m  [1mSET standard_conforming_strings = on[0m
+  [1m[35mSQL (0.3ms)[0m  SET client_min_messages TO 'notice'
+  [1m[36mSQL (0.9ms)[0m  [1mSET time zone 'UTC'[0m
+  [1m[35mSQL (0.8ms)[0m  SHOW TIME ZONE
+  [1m[36mSQL (25.5ms)[0m  [1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [1m[35mSQL (0.7ms)[0m  BEGIN
+  [1m[36mSQL (1.3ms)[0m  [1m SELECT tablename
+ FROM pg_tables
+ WHERE schemaname = ANY (current_schemas(false))
+[0m
+  [1m[35mSQL (0.9ms)[0m   SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"students"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+  [1m[36mStudent Load (0.6ms)[0m  [1mSELECT "students".* FROM "students" WHERE ("students"."id" = 1) LIMIT 1[0m
+
+
+Started POST "/login" for 127.0.0.1 at Sun Dec 26 04:32:23 +0700 2010
+  Processing by StudentSessionsController#new as HTML
+  Parameters: {"crypted_password"=>"[FILTERED]", "email"=>"trietptm@gmail.com"}
+Rendered student_sessions/_form.html.erb (8.8ms)
+Rendered student_sessions/new.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 22ms (Views: 20.1ms | ActiveRecord: 113.7ms)
+  [1m[35mSQL (0.4ms)[0m  ROLLBACK

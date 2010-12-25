@@ -7,7 +7,6 @@ class Student < ActiveRecord::Base
 	validates_uniqueness_of :studentid, :email
 	validates_associated :bookings
 	validates_confirmation_of :email
-  	#validates_presence_of :email_confirmation
 	#validates_length_of :crypted_password, :in => 6..10,
 	#	:too_short => "must have at least %{count} characters",
     	#	:too_long  => "must have at most %{count} characters"

@@ -1,10 +1,12 @@
-require 'test_helper'
+require File.dirname(__FILE__) + '/../test_helper'
 
 class TimeunitTest < ActiveSupport::TestCase
-  # Replace this with your real tests.
-  test "the truth" do
-    assert true
-  end
+
+test "should not save timeunit without timein or timeout" do
+  timeunit = Timeunit.new
+  assert !timeunit.save, "Saved the timeunit without a timein or a timeout"
+end
+
 end
 
 # == Schema Information

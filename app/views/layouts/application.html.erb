@@ -7,9 +7,13 @@
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
 </head>
-<body style="background: #EEEEEE;">
-
+<body style="background: #5478ee;">
+<div align="center"> <% if session[:student_id] != nil %>
+	<p>Student <%= session[:student_name] %> is logged in </p>
+<% end %>
+ </div>
+<div style="text-align: center">
 <%= yield %>
-
+</div>
 </body>
 </html>

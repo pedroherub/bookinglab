@@ -1,12 +1,14 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
-  timein: 2010-12-06 23:27:27
-  timeout: 2010-12-06 23:27:27
+  id: 1
+  timein: 2010-12-06 06:30:00
+  timeout: 2010-12-06 07:15:00
 
 two:
-  timein: 2010-12-06 23:27:27
-  timeout: 2010-12-06 23:27:27
+  id: 2
+  timein: 2010-12-07 07:20:00
+  timeout: 2010-12-07 08:05:00
 
 # == Schema Information
 #

@@ -16,10 +16,12 @@ class StudentSessionsController < ApplicationController
   def create
     @student_session = StudentSession.new(params[:student_session])      
     student = Student.find_by_email(@student_session.email)
-    session[:student_id] = student.id 
 
     respond_to do |format|
       if @student_session.save
+        session[:student_id] = student.id 
+        session[:student_number] = student.studentid
+        session[:student_name] = student.name
         format.html { redirect_to(:bookings, :notice => 'Student session was successfully created. Student '+student.studentid.to_s+' logged in') }
         format.xml  { render :xml => @student_session, :status => :created, :location => @student_session }
       else
@@ -33,6 +35,8 @@ class StudentSessionsController < ApplicationController
   # DELETE /student_sessions/1.xml
   def destroy
     session[:student_id] = nil
+    session[:student_number] = nil
+    session[:student_name] = nil
     @student_session = StudentSession.find
     @student_session.destroy
 

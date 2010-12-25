@@ -1,11 +1,13 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
-  block: MyString
-  room: MyString
+  id: 1
+  block: C6
+  room: Renesas
   number: 1
 
 two:
-  block: MyString
-  room: MyString
-  number: 1
+  id: 2
+  block: B10
+  room: 201
+  number: 2

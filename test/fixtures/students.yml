@@ -1,14 +1,18 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
-  studentid: 1
-  name: MyString
-  password: MyString
+  id: 1
+  studentid: 12345678
+  name: Triet
+  email: trietptm@gmail.com
+  crypted_password: 1234
 
 two:
-  studentid: 1
-  name: MyString
-  password: MyString
+  id: 2
+  studentid: 77777777
+  name: Vu
+  email: bombikg@gmail.com
+  crypted_password: 1234
 
 # == Schema Information
 #

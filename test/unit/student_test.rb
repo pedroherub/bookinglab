@@ -1,10 +1,17 @@
-require 'test_helper'
+require File.dirname(__FILE__) + '/../test_helper'
 
 class StudentTest < ActiveSupport::TestCase
-  # Replace this with your real tests.
-  test "the truth" do
-    assert true
-  end
+
+test "should not save student without studentid name email or pasword" do
+  student = Student.new
+  assert !student.save, "Saved the student without a studentid, a name, an email or a pasword"
+end
+
+test "should save studentid only as an integer" do
+  student = Student.new
+  assert !student.studentid.integer?, "Saved the studentid not as an integer"
+end
+
 end
 
 # == Schema Information

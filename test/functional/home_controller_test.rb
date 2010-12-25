@@ -1,4 +1,4 @@
-require 'test_helper'
+require File.dirname(__FILE__) + '/../test_helper'
 
 class HomeControllerTest < ActionController::TestCase
   test "should get index" do

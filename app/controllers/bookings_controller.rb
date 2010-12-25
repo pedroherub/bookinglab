@@ -44,7 +44,11 @@ class BookingsController < ApplicationController
   # POST /bookings
   # POST /bookings.xml
   def create
-    @booking = Booking.new(params[:booking])
+    
+    #if !Booking.where(:computer_id => params[:computer_id]).exists?
+	@booking = Booking.new(params[:booking])  
+    #end
+
 
     respond_to do |format|
       if @booking.save
